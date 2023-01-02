@@ -1,0 +1,36 @@
+.navigation {
+  width: fit-content;
+  padding: 20px;
+  background-color: var(--var-bg1);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.navigation .link-navigation-view {
+  margin-bottom: 10px;
+}
+
+.navigation .link-navigation-view .link-navigation-header {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .link-navigation-view .link-navigation-header .link-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.navigation .link-navigation-view .link-navigation-header .link-text {
+  font-weight: 600;
+}
+
+.navigation .link-navigation-view  .link-navigation-sub-class {
+  padding-left: 20px ;
+}
+
+.navigation .link-navigation-view  .link-navigation-sub-class .link-text {
+  margin-bottom: 2px;
+  color: #666;
+}
