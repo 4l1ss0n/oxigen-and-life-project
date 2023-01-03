@@ -2,7 +2,8 @@
 
 #root {
   --var-bg: #559eb9;
-  -var-text: #0061ff;
+  --var-text: #0061ff;
+  --var-text1: #676767;
   --var-title: #2f1160;
   --var-bg1: #e1e1e1;
   --var-bg2: #f5f5f5;
