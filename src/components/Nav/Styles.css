@@ -3,7 +3,6 @@
   padding: 20px;
   background-color: var(--var-bg1);
   display: flex;
-  flex: 1;
   flex-direction: column;
 }
 
