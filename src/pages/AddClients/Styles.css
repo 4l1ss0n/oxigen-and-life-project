@@ -1,0 +1,83 @@
+.add-clients {
+  width: 100%;
+  padding: 20px;
+}
+
+.add-clients .content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.add-clients .content-header .path {
+  color: var(--var-text1);
+  background-color: var(--var-bg1);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  width: auto;
+}
+
+.add-clients .content-header .path img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px
+}
+
+.add-clients .content-header .content-header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: auto;
+}
+.add-clients .content-header .content-header-title .title {
+  color: var(--var-title);
+}
+
+.add-clients .add-clients-form .form-view {
+  padding: 20px;
+}
+
+.add-clients .add-clients-form .form-view .input-view {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.add-clients .add-clients-form .form-view .input-view .input-tittle {
+  color: var(--var-title);
+  font-weight: 600;
+  width: 100px;
+}
+
+.add-clients .add-clients-form .form-view .input-view .input {
+  border: 2px solid var(--var-title);
+  border-radius: 4px;
+  color: var(--var-title);
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  margin: 10px;
+  width: 25%;
+  min-width: 300px;
+  padding: 5px;
+}
+
+.add-clients .add-clients-form .form-view .button-view {
+  display: flex;
+  justify-content: end;
+}
+
+.add-clients .add-clients-form .form-view .button-view .form-button {
+  font-size: 18px;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 20px;
+  border-radius: 30px;
+  background-color: var(--var-bg);
+}
+
+
