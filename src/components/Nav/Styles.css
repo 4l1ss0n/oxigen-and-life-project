@@ -23,13 +23,18 @@
 
 .navigation .link-navigation-view .link-navigation-header .link-text {
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .navigation .link-navigation-view  .link-navigation-sub-class {
-  padding-left: 20px ;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation .link-navigation-view  .link-navigation-sub-class .link-text {
   margin-bottom: 2px;
   color: #666;
+  white-space: nowrap;
+  text-decoration: none;
 }
