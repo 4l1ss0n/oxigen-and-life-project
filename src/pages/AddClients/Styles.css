@@ -68,7 +68,7 @@
 
 .add-clients .add-clients-form .form-view .button-view {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .add-clients .add-clients-form .form-view .button-view .form-button {
