@@ -1,0 +1,138 @@
+.add-allocation-unit {
+  width: 100%;
+  padding: 20px;
+}
+
+.add-allocation-unit .content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.add-allocation-unit .content-header .path {
+  color: var(--var-text1);
+  background-color: var(--var-bg1);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  width: auto;
+}
+
+.add-allocation-unit .content-header .path img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px
+}
+
+.add-allocation-unit .content-header .content-header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: auto;
+}
+.add-allocation-unit .content-header .content-header-title .title {
+  color: var(--var-title);
+}
+
+.add-allocation-unit .add-allocation-unit-form {
+  padding: 20px;
+  height: 100%;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view {
+  height: 100%;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view input,
+.add-allocation-unit .add-allocation-unit-form .form-view select {
+  border: 2px solid var(--var-title);
+  border-radius: 4px;
+  color: var(--var-title);
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view input::placeholder {
+  color: var(--var-title);
+  font-weight: 600;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .horizontal-view {
+  display: flex;
+  align-items: center;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .input-block {
+  display: flex;
+  align-items: center;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .input-block img {
+  width: 30px;
+  height: 30px;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .allocation-type {
+  padding: 10px;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .allocation-type-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .allocation-type-input .input-radio-view  {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: var(--var-title);
+  font-weight: bold;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .allocation-type-input .input-radio-view  input {
+  width: 20px;
+  background-color: var(--var-title);
+}
+
+
+.add-allocation-unit .add-allocation-unit-form .form-view .title {
+  color: var(--var-title);
+  font-weight: 600;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .details-input {
+  border: 2px solid var(--var-title);
+  border-radius: 4px;
+  color: var(--var-title);
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 80px;
+  width: 100%;
+  padding: 5px;
+  margin:0 15px 10px 0;
+  resize: vertical;
+}
+
+.add-allocation-unit .add-allocation-unit-form .form-view .button-view {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+
+.add-allocation-unit .add-allocation-unit-form .form-view button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  background-color: var(--var-title);
+}
