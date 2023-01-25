@@ -1,0 +1,120 @@
+.acquisition {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.acquisition .content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.acquisition .content-header .path {
+  color: var(--var-text1);
+  background-color: var(--var-bg1);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.acquisition .content-header .path img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px
+}
+
+.acquisition .information-content {
+  margin-top: 20px;
+}
+
+
+.acquisition .information-content .title {
+  color: var(--var-title);
+}
+
+.acquisition .information-content .acquisition-date-label {
+  color: var(--var-title);
+}
+
+.acquisition .information-content .date-input {
+  border: 1.4px solid var(--var-title);
+  border-radius: 4px;
+  padding: 5px;
+  color: var(--var-title);
+  font-weight: 600;
+  font-size: 16px;
+  width: 50%;
+  max-width: 500px;
+  min-width: 150px;
+  height: 50px;
+}
+
+.acquisition .information-content .horizontal-view {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.acquisition .information-content .horizontal-view .code-input {
+  border: 1.4px solid #7a7a7a;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 16px;
+  width: 50%;
+  max-width: 500px;
+  min-width: 150px;
+  height: 50px;
+}
+
+.acquisition .information-content .horizontal-view img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.acquisition .materials-content {
+  margin-top: 50px;
+  color: var(--var-title);
+  
+}
+
+.acquisition .materials-content .sub-title {
+  text-align: center;
+  background-color: var(--var-bg1);
+}
+
+.acquisition .materials-content .materials-table-view {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.acquisition .materials-content .materials-table-view .material-code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acquisition .materials-content .materials-table-view .material-code img {
+  width: 20px;
+  height: auto;
+}
+
+.acquisition .materials-content .materials-table-view .materials-list {
+  border: 1px solid var(--var-title);
+  padding: 8px;
+  border-radius: 4px;
+  height: 45px;
+}
+
+.acquisition .new-acquisition-button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  background-color: var(--var-title);
+  position: fixed;
+  bottom: 20px;
+  right: 20px
+}
