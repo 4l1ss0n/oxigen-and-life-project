@@ -6,6 +6,7 @@ import Search from "../../assets/search.svg";
 
 import Title from "../../components/Title";
 
+
 export default function Acquisition() {
   return (
     <div className="acquisition">
@@ -45,7 +46,9 @@ export default function Acquisition() {
               ))
             }
         </table>
-        <button className="new-acquisition-button">Cadastrar Nova Aquisição</button>
+        <div className="button-view">
+          <button className="form-button">Cadastar Nova Aquisição</button>
+        </div>
       </div>
     </div>
   );

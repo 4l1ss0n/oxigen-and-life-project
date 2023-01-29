@@ -51,7 +51,7 @@ export default function CheckOffItems() {
           </div>
           <input type="text" placeholder="Responsável pela solicitação" className="responsavel-input" />
           <div className="button-view">
-            <button className="form-button">Dar Baixa em Itens</button>
+            <button className="form-button">Dar Baixa dos Itens</button>
           </div>
         </form>
       </div>

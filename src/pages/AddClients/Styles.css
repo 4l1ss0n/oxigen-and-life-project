@@ -48,14 +48,3 @@
   display: flex;
   justify-content: flex-end;
 }
-
-.add-clients .add-clients-form .form-view .button-view .form-button {
-  font-size: 18px;
-  color: white;
-  padding: 15px 30px;
-  margin-right: 20px;
-  border-radius: 30px;
-  background-color: var(--var-bg);
-}
-
-

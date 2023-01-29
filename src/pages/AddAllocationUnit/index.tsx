@@ -57,7 +57,7 @@ export default function AddAllocationUnit() {
             <textarea name="details-textarea" className="details-input" ></textarea>
           </div>
           <div className="button-view">
-            <button>Cadastrar UA</button>
+            <button className="form-button">Cadastrar UA</button>
           </div>
         </form>
       </div>

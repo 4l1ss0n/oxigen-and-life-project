@@ -85,13 +85,7 @@
   height: 45px;
 }
 
-.acquisition .new-acquisition-button {
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 6px;
-  background-color: var(--var-title);
+.acquisition .button-view {
   position: fixed;
   bottom: 20px;
   right: 20px

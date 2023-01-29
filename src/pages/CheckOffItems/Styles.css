@@ -114,13 +114,4 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 10px;
-} 
-
-.check-off-items .information-content .input-form .form-button {
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 6px;
-  background-color: var(--var-title);
 }
