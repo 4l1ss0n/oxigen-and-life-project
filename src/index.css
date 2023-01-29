@@ -21,3 +21,23 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
+button.form-button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  background-color: var(--var-title);
+  cursor: pointer;
+}
+
+button.action-button {
+  font-size: 18px;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 20px;
+  border-radius: 30px;
+  background-color: var(--var-bg);
+  cursor: pointer;
+}
