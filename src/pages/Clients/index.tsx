@@ -2,23 +2,20 @@ import React from "react";
 
 
 import "./Styles.css";
-import Foward from "../../assets/undo.svg";
 import { clients } from "../../assets/contentExemples";
+
+import Title from "../../components/Title";
 
 export default function Clients() {
   const data = clients;
   return (
     <div className="clients">
-      <div className="content-header">
-        <p className="path">
-          <img src={Foward} alt="foward" />
-          Estoque/Unidates de Alocação</p>
-        <div className="content-header-title-and-buttons">
-          <h1 className="title">Clientes</h1>
-          <div className="button-content">
-            <button className="button" >Exportar em CSV</button>
-            <button className="button" >Novo Cliente</button>
-          </div>
+      <Title content={"Clientes"}/>
+      <div className="title-and-buttons">
+        <h1 className="title">Clientes</h1>
+        <div className="button-content">
+          <button className="button" >Exportar em CSV</button>
+          <button className="button" >Novo Cliente</button>
         </div>
       </div>
       <div className="filter-content">

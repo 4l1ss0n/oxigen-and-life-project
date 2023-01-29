@@ -1,22 +1,15 @@
 import React from "react";
 
 import "./Styles.css";
-import Foward from "../../assets/undo.svg";
 import Information from "../../assets/information.svg";
 import AddNote from "../../assets/add-note.svg";
 
+import Title from "../../components/Title";
 
 export default function AddAllocationUnit() {
   return (
     <div className="add-allocation-unit">
-      <div className="content-header">
-        <p className="path">
-          <img src={Foward} alt="foward" />
-          Unidades de Alocação/Cadastrar Unidade de Alocação</p>
-        <div className="content-header-title">
-          <h1 className="title">Cadastrar Unidade de Alocação</h1>
-        </div>
-      </div>
+      <Title content={"Unidades de Alocação/Cadastrar Unidade de Alocação"}/>
       <div className="add-allocation-unit-form">
         <form className="form-view">
           <div className="horizontal-view">

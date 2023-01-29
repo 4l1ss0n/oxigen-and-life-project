@@ -3,31 +3,9 @@
   padding: 20px;
 }
 
-.acquisition .content-header {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.acquisition .content-header .path {
-  color: var(--var-text1);
-  background-color: var(--var-bg1);
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  border-radius: 2px;
-}
-
-.acquisition .content-header .path img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px
-}
-
 .acquisition .information-content {
   margin-top: 20px;
 }
-
 
 .acquisition .information-content .title {
   color: var(--var-title);

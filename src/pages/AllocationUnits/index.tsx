@@ -2,23 +2,19 @@ import React from "react";
 import { Filials } from "../../assets/contentExemples";
 
 import "./Styles.css";
-import Foward from "../../assets/undo.svg";
 
+import Title from "../../components/Title";
 
 export default function AllocationUnits() {
   const data = Filials;
   return (
     <div className="allocation-units">
-      <div className="content-header">
-        <p className="path">
-          <img src={Foward} alt="foward" />
-          Estoque/Unidates de Alocação</p>
-        <div className="content-header-title-and-buttons">
-          <h1 className="title">Unidades de Alocação</h1>
-          <div className="button-content">
-            <button className="button" >Exportar em CSV</button>
-            <button className="button" >Inserir Nova UA</button>
-          </div>
+      <Title content={"Unidades de Alocação"}/>
+      <div className="title-and-buttons">
+        <h1 className="title">Unidades de Alocação</h1>
+        <div className="button-content">
+          <button className="button" >Exportar em CSV</button>
+          <button className="button" >Inserir Nova UA</button>
         </div>
       </div>
       <div className="filter-content">

@@ -3,29 +3,7 @@
   padding: 20px;
 }
 
-.clients .content-header {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.clients .content-header .path {
-  color: var(--var-text1);
-  background-color: var(--var-bg1);
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  border-radius: 2px;
-  width: auto;
-}
-
-.clients .content-header .path img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px
-}
-
-.clients .content-header .content-header-title-and-buttons {
+.clients .title-and-buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,7 +12,7 @@
   width: auto;
 }
 
-.clients .content-header .content-header-title-and-buttons .title {
+.clients .title-and-buttons .title {
   color: var(--var-title);
 }
 

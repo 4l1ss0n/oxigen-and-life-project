@@ -3,28 +3,6 @@
   padding: 20px;
 }
 
-.add-allocation-unit .content-header {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.add-allocation-unit .content-header .path {
-  color: var(--var-text1);
-  background-color: var(--var-bg1);
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  border-radius: 2px;
-  width: auto;
-}
-
-.add-allocation-unit .content-header .path img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px
-}
-
 .add-allocation-unit .content-header .content-header-title {
   display: flex;
   flex-direction: row;

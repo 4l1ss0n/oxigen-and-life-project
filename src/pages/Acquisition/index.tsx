@@ -1,20 +1,15 @@
 import React from "react";
 
 import "./Styles.css";
-import Foward from "../../assets/undo.svg";
 import AddNote from "../../assets/add-note.svg";
 import Search from "../../assets/search.svg";
 
+import Title from "../../components/Title";
 
 export default function Acquisition() {
   return (
     <div className="acquisition">
-      <div className="content-header">
-        <p className="path">
-          <img src={Foward} alt="foward" />
-          Estoque/Novas Aquisições
-        </p>
-      </div>
+      <Title content={"Estoque/Novas Aquisições"} />
       <div className="information-content">
         <h1 className="title">Nova Aquisição de Itens</h1>
         <label className="acquisition-date-label" htmlFor="acquisition-date">Data de aquisição</label><br />

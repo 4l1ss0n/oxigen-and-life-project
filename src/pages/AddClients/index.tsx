@@ -1,19 +1,13 @@
 import React from "react";
 
 import "./Styles.css";
-import Foward from "../../assets/undo.svg";
+
+import Title from "../../components/Title";
 
 export default function AddClients() {
   return (
     <div className="add-clients">
-      <div className="content-header">
-        <p className="path">
-          <img src={Foward} alt="foward" />
-          Clientes/adicionar clientes</p>
-        <div className="content-header-title">
-          <h1 className="title">Adicionar Clientes</h1>
-        </div>
-      </div>
+      <Title content={"Clientes/adicionar clientes"} />
       <div className="add-clients-form">
         <form className="form-view">
           <div className="input-view">

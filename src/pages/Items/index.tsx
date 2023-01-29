@@ -1,26 +1,22 @@
 import React from "react";
 
 import "./Styles.css";
-import Foward from "../../assets/undo.svg";
 import { items } from "../../assets/contentExemples";
+import Title from "../../components/Title";
 
 
 export default function Materials() {
   const data: any[]= items;
   return (
     <div className="materials">
-      <div className="content-header">
-        <p className="path">
-          <img src={Foward} alt="foward" />
-          Estoque/Unidates de Alocação</p>
-        <div className="content-header-title-and-buttons">
-          <h1 className="title">Materiais</h1>
+      <Title content={"Estoque/Itens de Estoque"}/>
+      <div className="title-and-buttons">
+          <h1 className="title">Itens de Estoque</h1>
           <div className="button-content">
             <button className="button" >Exportar em CSV</button>
-            <button className="button" >Novo Material</button>
+            <button className="button" >Novas Aquisições</button>
           </div>
         </div>
-      </div>
       <div className="filter-content">
         <p className="divition-bar-text">Filtro</p>
         <div className="filter-selection">
