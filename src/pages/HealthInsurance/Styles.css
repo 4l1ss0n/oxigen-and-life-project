@@ -1,0 +1,52 @@
+.health-insurance {
+  flex: 1;
+  padding: 20px;
+}
+
+.health-insurance .title-and-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.health-insurance .title-and-buttons .title {
+  color: var(--var-title);
+}
+
+.health-insurance .filter-content {
+  margin-top: 10px;
+  background-color: var(--var-bg1);
+}
+
+.health-insurance .filter-content .divition-bar-text {
+  text-align: center;
+  color: white;
+  background-color: var(--var-bg);
+}
+
+.health-insurance .filter-content .filter-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.health-insurance .unit-list-content {
+  margin-top: 20px;
+}
+
+.health-insurance .unit-list-content .unit-table {
+  width: 100%;
+}
+
+
+.health-insurance .unit-list-content .unit-table th,
+.health-insurance .unit-list-content .unit-table td {
+  padding: 10px;
+  text-align: left;
+  margin: .5px;
+  background-color: var(--var-bg1);
+}
